@@ -7,17 +7,34 @@ body {
 .container {
     max-width: 800px;
     margin: auto;
+    position: relative;
+    animation-name: entrada;
+    animation-duration: 3s;
         }
 .text-box {
     margin-bottom: 20px;
+    position: relative;
+    animation-name: entrada;
+    animation-duration: 3s;
     }
 img {
     max-width: 100%;
     height: auto;
+    position: relative;
+    animation-name: entrada;
+    animation-duration: 3s;
     }
 .flex-container > div {
     background-color: #ffffff00;
     margin: 10px;
     padding: 20px;
     font-size: 30px;
+    position: relative;
+    animation-name: entrada;
+    animation-duration: 3s;
     }
+@keyframes entrada {
+    0%   {background-color:rgb(136, 255, 0); right:2000px; top:2000px;}
+    100% {background-color:rgba(255, 0, 0, 0); right:0px; top:0px;}
+    }
+    
