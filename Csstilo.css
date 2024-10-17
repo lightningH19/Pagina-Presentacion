@@ -1,3 +1,23 @@
+
 body {
-    background: linear-gradient(to top, #000 25%, #ccc 100%);
-}
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: linear-gradient(to top, #fff200 25%, #ff0000 100%);
+    }
+.container {
+    max-width: 800px;
+    margin: auto;
+        }
+.text-box {
+    margin-bottom: 20px;
+    }
+img {
+    max-width: 100%;
+    height: auto;
+    }
+.flex-container > div {
+    background-color: #ffffff00;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    }
